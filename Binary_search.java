@@ -1,13 +1,3 @@
-/* Description: This program implements the recursive binary search algorithm in Java.
-It accepts a user-input array size, array elements, and a target value. It automatically sorts the entered array in ascending order
-(required for binary search), then recursively searches for the target. At every recursive call, the program prints the current
-low, high, mid, and arr[mid] values so the shrinking search interval can be traced. The program outputs the index of the target if found,
- or -1 if it is not in the array.
-Programmed by: Joshua L. Muñasque BSIT 48079 DATA STRUCTURES AND ALGORITHMS
-Last Modified: Sept 4, 2026
-Version: 1.0
-[Acknowledgements: https://www.geeksforgeeks.org/dsa/binary-search/, and our beloved ma'am Pauline Rivas <3
-*/
 import java.util.Scanner;
 
 public class Binary_search {
