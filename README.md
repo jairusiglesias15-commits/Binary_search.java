@@ -1,13 +1,7 @@
 # Laboratory Activity: Recursion — Recursive Binary Search
 
 ## Description
-This program implements the recursive binary search algorithm in Java. It accepts
-a user-input array size, array elements, and a target value. It automatically
-sorts the entered array in ascending order (required for binary search), then
-recursively searches for the target. At every recursive call, the program prints
-the current `low`, `high`, `mid`, and `arr[mid]` values so the shrinking search
-interval can be traced. The program outputs the index of the target if found,
-or `-1` if it is not in the array.
+This Java program implements the recursive binary search algorithm. It takes an array size, the array elements, and a target value as input from the user. It then automatically sorts the entered array in ascending order (a requirement for binary search) before recursively searching for the target. During each recursive call, the program prints the current values of low, high, mid, and arr[mid], allowing the shrinking search interval to be traced. If the target is found, the program outputs its index; if it is not present in the array, it outputs -1.
 
 ## Programming Language
 Java (JDK 21)
